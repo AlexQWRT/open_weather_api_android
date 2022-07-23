@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/peach"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_text"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/main_text"/>
+
+    <TextView
+        android:id="@+id/town_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_text"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="40sp"
+        android:text="@string/town_request" />
+
+    <EditText
+        android:id="@+id/town_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/town_request"
+        android:layout_marginTop="10sp"
+        android:layout_marginHorizontal="20sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/hint"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/weather_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/town_edit"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="40sp" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/main_text"
+        android:text="@string/search"
+        app:backgroundTint="@color/main_text" />
+
+</RelativeLayout>

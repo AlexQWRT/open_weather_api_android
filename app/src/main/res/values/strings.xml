@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Погодка</string>
+    <string name="main_text">Чекнем погодку</string>
+    <string name="town_request">Введите город</string>
+    <string name="hint">Введи-ка название города</string>
+    <string name="search">Пошаманить</string>
+    <string name="empty_field">Введи город алло</string>
+    <string name="downloading">Жди.....</string>
+    <string name="nothing_was_found">Шаман ничего не нашёл</string>
+    <string name="temp">Температура сейчас:</string>
+    <string name="temp_feels">Ощущается как:</string>
+    <string name="wind_speed">Скорость ветра:</string>
+    <string name="pressure">Давление воздуха:</string>
+    <string name="description">Примечание:</string>
+    <string name="speed">м/с</string>
+    <string name="pascals">МПа</string>
+</resources>
